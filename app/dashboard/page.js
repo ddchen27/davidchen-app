@@ -7,6 +7,7 @@ export default function Page() {
   return (
     <main>
       <h1>Hello World!</h1>
+      <p>ysjSvRFQjVe*tZ6</p>
     </main>
   );
 }
