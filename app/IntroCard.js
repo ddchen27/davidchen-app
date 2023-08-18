@@ -17,7 +17,7 @@ const IntroCard = () => {
       <h1>Hello world {counter}!!</h1>
       <p>
         This is my personal website to show my resume and portfolio.
-        Built with Next.js and hosted on AWS Amplify. Work in progress (if you can't tell).
+        Built with Next.js and hosted on AWS Amplify. Work in progress (if you can&apos;t tell).
       </p>
       <Button onClick={increase}>Increment</Button>
     </Card>
