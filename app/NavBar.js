@@ -1,15 +1,15 @@
 "use client";
 import React from "react";
+import Image from "next/image";
 import Link from "next/link";
 import Logo from "./Logo";
 import { usePathname } from "next/navigation";
 import { EZTrainIcon, GithubIcon, LinkedInIcon } from "./Icons";
 import { motion } from "framer-motion";
+import EZ from "../public/images/svgs/EZ_light.svg";
 
 const CustomLink = ({ href, title, className = "" }) => {
   const pathname = usePathname();
-  console.log("hello there");
-  console.log(pathname);
   return (
     <Link className={`${className} relative group`} href={href}>
       {title}
@@ -39,7 +39,7 @@ const NavBar = () => {
           target="_blank"
           whileHover={{ y: -2 }}
           className="w-7 mr-3"
-          whileTap={{scale:0.9}}
+          whileTap={{ scale: 0.9 }}
         >
           <GithubIcon />
         </motion.a>
@@ -48,7 +48,7 @@ const NavBar = () => {
           target="_blank"
           whileHover={{ y: -2 }}
           className="w-7 mx-3"
-          whileTap={{scale:0.9}}
+          whileTap={{ scale: 0.9 }}
         >
           <LinkedInIcon />
         </motion.a>
@@ -57,9 +57,9 @@ const NavBar = () => {
           target="_blank"
           whileHover={{ y: -2 }}
           className="w-7 ml-3"
-          whileTap={{scale:0.9}}
+          whileTap={{ scale: 0.9 }}
         >
-          <EZTrainIcon />
+          <Image src={EZ} alt="EZTrain" />
         </motion.a>
       </nav>
       <div className="absolute left-[50%] top-2 translate-x-[-50%]">
