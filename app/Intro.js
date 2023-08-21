@@ -18,7 +18,7 @@ const Intro = () => {
     <div className="w-1/2 flex flex-col items-center self-center">
         <AnimatedText
           text='"We only live to discover beauty. All else is a form of waiting." - Kahlil Gibran'
-          className="!text-5xl !text-left"
+          className="!text-4xl !text-left"
         />
         <p className="my-4 text-base font-medium">
           This is my personal website to show my resume and portfolio. Built

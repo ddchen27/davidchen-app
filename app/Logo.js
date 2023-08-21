@@ -3,6 +3,8 @@ import React from "react";
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import Image from "next/image";
+import logo from "../public/DC_logo_gray-circle-crop.png"
 
 const MotionLink = motion(Link);
 
@@ -25,7 +27,7 @@ const Logo = () => {
           transition: { duration: 1, repeat: Infinity },
         }}
       >
-        DC
+        <Image src={logo} alt="DC custom logo"></Image>
       </MotionLink>
     </div>
   );
