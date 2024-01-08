@@ -17,7 +17,6 @@ export default function Home() {
         <HomeLayout className="pt-0">
           <div className="flex items-center justify-between w-full">
             <div className="w-1/2">
-              
               <Image src={profilePic} alt="David" className="w-auto h-auto" />
             </div>
             <Intro />
@@ -25,9 +24,6 @@ export default function Home() {
         </HomeLayout>
       </div>
       <HireMe />
-      <div className="absolute right-8 top-1/2 inline-block w-24">
-        <Image src={lightBulb} alt="David" className="w-full h-auto" />
-      </div>
       <Footer />
     </main>
   );
