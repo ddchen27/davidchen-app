@@ -31,7 +31,7 @@ const About = () => {
             About Me
           </Typography>
           <Typography variant="body1" paragraph>
-            Hi, I'm [Your Name], a passionate web developer with a love for
+            Hi, I&apos;m [Your Name], a passionate web developer with a love for
             creating elegant and functional websites.
           </Typography>
           <Typography variant="body1" paragraph>
@@ -48,8 +48,8 @@ const About = () => {
             {/* Add icons or labels for your skills */}
           </Grid>
           <Typography variant="body1" paragraph>
-            In addition to my technical skills, I'm a creative problem solver
-            and a team player. I'm always eager to learn and adapt to new
+            In addition to my technical skills, I&apos;m a creative problem solver
+            and a team player. I&apos;m always eager to learn and adapt to new
             technologies.
           </Typography>
           <Typography variant="h5" gutterBottom>
