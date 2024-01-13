@@ -6,7 +6,7 @@ import logo from "../public/three_color_logo_circle_crop.png";
 
 const HireMe = () => {
   return (
-    <div className="fixed left-4 top-1/2 flex items-center justify-center overflow-hidden">
+    <div className="flex items-center justify-center overflow-hidden">
       <div className="w-48 h-auto flex items-center justify-center relative">
         <CircularMedStudent className={"fill-dark animate-spin-slow"} />
         <Link

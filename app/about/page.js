@@ -1,8 +1,15 @@
 "use client";
-import React from 'react';
-import { Container, Typography, Button, Paper, Grid, Avatar, Box } from '@mui/material';
-import { motion } from 'framer-motion';
-import profileImage from "../../public/images/profile/pic1.png"; // Import your profile image
+import React from "react";
+import {
+  Container,
+  Typography,
+  Button,
+  Paper,
+  Grid,
+  Avatar,
+  Box,
+} from "@mui/material";
+import { motion } from "framer-motion";
 
 const About = () => {
   const pageVariants = {
@@ -12,7 +19,7 @@ const About = () => {
   };
 
   const pageTransition = {
-    type: 'tween',
+    type: "tween",
     duration: 0.5,
   };
 
@@ -25,44 +32,60 @@ const About = () => {
       transition={pageTransition}
     >
       <Container maxWidth="md">
-        <Paper elevation={3} sx={{ padding: 3, marginTop: 4, textAlign: 'center' }}>
-          <Avatar alt="Your Name" src={profileImage} sx={{ width: 150, height: 150, margin: '0 auto' }} />
+        <Paper
+          elevation={3}
+          sx={{ padding: 3, marginTop: 4, textAlign: "center" }}
+        >
+          <Avatar
+            alt="David D. Chen"
+            src="/images/profile/pic1.png"
+            sx={{ width: 150, height: 150, margin: "0 auto" }}
+          />
           <Typography variant="h4" gutterBottom>
             About Me
           </Typography>
           <Typography variant="body1" paragraph>
-            Hi, I&apos;m [Your Name], a passionate web developer with a love for
-            creating elegant and functional websites.
+            Hello! I&apos;m David D. Chen, a multidisciplinary professional with a
+            background in both the medical sciences and computer science. I&apos;m
+            currently pursuing a Medical Degree at the University of
+            Washington&apos;s School of Medicine and hold a B.S. in Biology and a
+            B.A. in Computer Science from Duke University.
           </Typography>
           <Typography variant="body1" paragraph>
-            I have experience in front-end and back-end development using
-            technologies such as React, Node.js, and Express. My goal is to
-            provide clean, maintainable code and create user-friendly web
-            experiences.
+            My technical expertise includes web application development, machine
+            learning, laboratory techniques in developmental and molecular
+            biology, and computational biology data analysis. I&apos;m fluent in
+            English and Mandarin, and adept in multiple programming languages.
           </Typography>
           <Typography variant="h5" gutterBottom>
-            Skills
+            Experience
           </Typography>
-          <Grid container spacing={2}>
-            {/* Skills icons or labels */}
-            {/* Add icons or labels for your skills */}
-          </Grid>
           <Typography variant="body1" paragraph>
-            In addition to my technical skills, I&apos;m a creative problem solver
-            and a team player. I&apos;m always eager to learn and adapt to new
-            technologies.
+            I have gained valuable experience as a Graduate Researcher at the
+            Fred Hutchinson Cancer Center, contributing to significant research
+            projects. My role as a Software Engineer at EZTrain LLC involves
+            developing a web application for the U.S. Air Force Reserve and EMS
+            divisions. I&apos;ve also interned at Regeneron Pharmaceuticals, focusing
+            on data management and algorithm development.
+          </Typography>
+          <Typography variant="body1" paragraph>
+            In addition to my technical and research roles, I&apos;ve held positions
+            as a Technical Officer at the Medical Student Association, Student
+            Chair at medSTAT, and as a Teaching Assistant in Duke University&apos;s
+            Computer Science Department.
           </Typography>
           <Typography variant="h5" gutterBottom>
             Contact Me
           </Typography>
           <Typography variant="body1" paragraph>
-            Feel free to reach out to me if you have any questions or
-            opportunities for collaboration.
+            I&apos;m open to discussing opportunities for collaboration or any
+            queries you might have. Reach out to me at davidchen1337@gmail.com
+            or connect with me on LinkedIn.
           </Typography>
           <Button
             variant="contained"
             color="primary"
-            href="mailto:youremail@example.com"
+            href="mailto:davidchen1337@gmail.com"
           >
             Email Me
           </Button>
