@@ -47,8 +47,8 @@ const Intro = () => {
           style={{
             position: "relative",
             zIndex: 1,
-            top: "200px",
-            marginTop: "-250px"
+            top: "350px",
+            marginTop: "-350px"
           }} // Adjust '20px' as needed
         >
           <Typography variant="h1" sx={{ ...headlineStyle, ...line1Style }}>
@@ -56,7 +56,7 @@ const Intro = () => {
           </Typography>
         </motion.div>
         <motion.img
-          src="/images/profile/pic3.png"
+          src="/images/profile/pic6.png"
           alt="default"
           initial="initial"
           animate="animate"
@@ -66,7 +66,6 @@ const Intro = () => {
             height: "auto",
             position: "relative",
             zIndex: 2,
-            left: "1%"
           }}
         />
         {/* Intermediate z-index */}
@@ -91,14 +90,28 @@ const Intro = () => {
   );
 };
 
+// const headlineStyle = {
+//   position: "relative",
+//   display: "block",
+//   fontWeight: 500,
+//   textTransform: "uppercase",
+//   fontSize: "23.2vw",
+//   margin: "-6vw 0 0 -1.3vw",
+// };
+
 const headlineStyle = {
   position: "relative",
   display: "block",
   fontWeight: 500,
   textTransform: "uppercase",
-  fontSize: "23.2vw",
-  margin: "-6vw 0 0 -1.3vw",
+  fontSize: "28vw", // Adjust the base size and scaling factor as needed
+  lineHeight: "1", 
+  margin: "0 auto", 
+  whiteSpace: "nowrap",
+  overflow: "hidden",
+  textOverflow: "clip",
 };
+
 
 const line1Style = {
   zIndex: 1,

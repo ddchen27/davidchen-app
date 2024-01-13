@@ -10,6 +10,7 @@ import {
   Box,
 } from "@mui/material";
 import { motion } from "framer-motion";
+import NavBar from "../NavBar";
 
 const About = () => {
   const pageVariants = {
@@ -31,6 +32,7 @@ const About = () => {
       variants={pageVariants}
       transition={pageTransition}
     >
+      <NavBar/>
       <Container maxWidth="md">
         <Paper
           elevation={3}

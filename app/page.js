@@ -52,7 +52,7 @@ export default function Home() {
                   transition={{ duration: 3 }}
                 >
                   <Typography variant="h4" component="h1" gutterBottom>
-                    WORK IN PROGRESS
+                    THIS WEBSITE IS A WORK IN PROGRESS
                   </Typography>
                   <Typography variant="body1" className="my-4">
                     I&apos;M A MS3 AT THE UNIVERSITY OF WASHINGTON SCHOOL OF MEDICINE. CHECK OUT MY PORTFOLIO OF WORKS HERE.
