@@ -55,18 +55,18 @@ export default function Home() {
                     THIS WEBSITE IS A WORK IN PROGRESS
                   </Typography>
                   <Typography variant="body1" className="my-4">
-                    I&apos;M A MS3 AT THE UNIVERSITY OF WASHINGTON SCHOOL OF MEDICINE. CHECK OUT MY PORTFOLIO OF WORKS HERE.
+                    HI, I&apos;M A MS3 AT THE UNIVERSITY OF WASHINGTON SCHOOL OF MEDICINE. CHECK OUT MY PORTFOLIO OF WORKS HERE.
                   </Typography>
                   <Paper
                     elevation={3}
                     className="flex flex-col items-center mt-2 p-4"
                   >
                     <Link
-                      href="/dummy.pdf"
+                      href="/CV_011324.pdf"
                       target="_blank"
                       className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark"
                     >
-                      RESUME <LinkArrow className={"w-6 ml-1"} />
+                      CV <LinkArrow className={"w-6 ml-1"} />
                     </Link>
                     <Link
                       href="mailto:davidchen1337@gmail.com"

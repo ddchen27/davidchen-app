@@ -19,11 +19,11 @@ const Footer = () => {
         </div>
 
         <Link
-          href="https://www.facebook.com/DukeMBB"
+          href="https://twitter.com/UW_Football"
           target="_blank"
           className="underline underline-offset-2"
         >
-          Go BlueDevils
+          Go Dawgs!
         </Link>
       </HomeLayout>
     </footer>
