@@ -53,7 +53,7 @@ const NavBar = () => {
           <LinkedInIcon />
         </motion.a>
         <motion.a
-          href="https://www.goeztrain.com/company#about "
+          href="https://www.goeztrain.com/"
           target="_blank"
           whileHover={{ y: -2 }}
           className="w-7 ml-3"

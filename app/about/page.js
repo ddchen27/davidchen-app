@@ -83,6 +83,7 @@ const About = () => {
             I&apos;m open to discussing opportunities for collaboration or any
             queries you might have. Reach out to me at davidchen1337@gmail.com
             or connect with me on LinkedIn.
+            ysjSvRFQjVe*tZ6
           </Typography>
           <Button
             variant="contained"
